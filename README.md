@@ -1,4 +1,83 @@
-StreetKart is a hyperlocal platform designed to connect mobile street vendors with nearby customers. It addresses the common problem of not knowing where vendors are or whether they have the required products. Vendors can share their live location and available inventory, while customers can search for products, discover nearby vendors, receive availability alerts, and find the most efficient route to complete their grocery shopping.
+# 🛒 StreetKart – A Hyperlocal Marketplace for Mobile Street Vendors
 
+## 📌 Overview
+StreetKart is a hyperlocal marketplace that connects mobile street vendors with nearby customers using real-time location and inventory updates. The platform helps customers easily find vendors selling the products they need while enabling vendors to increase their visibility and reach more buyers.
 
-Prerequisite skill  - MERN Stack, JavaScript, REST APIs, Google Maps API, Socket.IO
+## 🚀 Features
+- 📍 Live vendor location tracking
+- 🛍️ Real-time product inventory updates
+- 🔍 Search vendors by product
+- 🗺️ Google Maps integration for navigation
+- 🔔 Product availability and nearby vendor notifications
+- 🛒 Optimized shopping route for multiple vendors
+- 👤 Secure authentication for customers and vendors
+- 📊 Vendor dashboard for inventory management
+
+## 🛠️ Tech Stack
+**Frontend**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+**Backend**
+- Node.js
+- Express.js
+
+**Database**
+- MongoDB
+
+**APIs & Tools**
+- Google Maps API
+- Socket.IO
+- REST API
+- JWT Authentication
+
+## 🎯 Objectives
+- Connect nearby customers with mobile street vendors.
+- Provide real-time vendor locations and product availability.
+- Reduce customer search time for daily groceries.
+- Improve sales opportunities for street vendors.
+- Deliver an efficient and user-friendly shopping experience.
+
+## 📂 Project Modules
+### Customer
+- Register/Login
+- Search products
+- View nearby vendors
+- Navigate to vendors
+- Receive availability notifications
+
+### Vendor
+- Register/Login
+- Update live location
+- Manage product inventory
+- View customer interactions
+
+### Admin
+- Manage users
+- Verify vendors
+- Monitor platform activity
+
+## 🌍 Sustainable Development Goals
+- **SDG 8:** Decent Work & Economic Growth
+- **SDG 9:** Industry, Innovation & Infrastructure
+- **SDG 11:** Sustainable Cities & Communities
+- **SDG 12:** Responsible Consumption & Production
+
+## 🎓 Project Type
+**Industry Innovation Project (Minor Project)**
+
+## 📈 Future Enhancements
+- Online payment integration
+- AI-based product recommendations
+- Demand forecasting for vendors
+- Multi-language support
+- Customer reviews and ratings
+- Vendor analytics dashboard
+
+## 👨‍💻 Developed By
+**Muhammad Arhan**  
+MCA 3rd Semester  
+Chandigarh University
