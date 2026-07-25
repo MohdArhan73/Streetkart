@@ -79,6 +79,6 @@ StreetKart is a hyperlocal marketplace that connects mobile street vendors with 
 - Vendor analytics dashboard
 
 ## 👨‍💻 Developed By
-**Muhammad Arhan**  
+**Mohd Arhan**  
 MCA 3rd Semester  
 Chandigarh University
