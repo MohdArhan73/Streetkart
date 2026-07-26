@@ -1,5 +1,6 @@
 # 🛒 StreetKart – A Hyperlocal Marketplace for Mobile Street Vendors
 
+
 ## 📌 Overview
 StreetKart is a hyperlocal marketplace that connects mobile street vendors with nearby customers using real-time location and inventory updates. The platform helps customers easily find vendors selling the products they need while enabling vendors to increase their visibility and reach more buyers.
 
