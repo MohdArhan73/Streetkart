@@ -2,7 +2,7 @@
 
 
 ## 📌 Overview
-StreetKart is a hyperlocal marketplace that connects mobile street vendors with nearby customers using real-time location and inventory updates. The platform helps customers easily find vendors selling the products they need while enabling vendors to increase their visibility and reach more buyers.
+StreetKart is a hyperlocal marketplace designed to connect mobile street vendors with nearby customers through real-time location tracking and live inventory updates. The platform enables vendors to share their current location and available products, making it easier for customers to discover nearby vendors and check product availability before visiting. By integrating location-based services, smart search, and optimized navigation, StreetKart reduces the time spent searching for daily essentials while helping street vendors increase their visibility, attract more customers, and grow their business. The platform aims to create a more efficient, accessible, and technology-driven shopping experience for both vendors and consumers.
 
 ## 🚀 Features
 - 📍 Live vendor location tracking
