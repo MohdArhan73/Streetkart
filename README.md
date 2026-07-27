@@ -83,3 +83,8 @@ StreetKart is a hyperlocal marketplace that connects mobile street vendors with 
 **Mohd Arhan**  
 MCA 3rd Semester  
 Chandigarh University
+
+## Refrences 
+- Pahia – Street Vendors Nearby(https://play.google.com/store/apps/details?id=com.pahia)
+- Google Maps(https://www.google.com/maps)
+- Blinkit(https://blinkit.com)
