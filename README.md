@@ -77,12 +77,12 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - Demand forecasting for vendors
 - Multi-language support
 - Customer reviews and ratings
-- Vendor analytics dashboard
+- Vendor analytics dashboard 
 
-## 👨‍💻 Developed By
+## 👨‍💻 Developed By 
 **Mohd Arhan**  
 MCA 3rd Semester  
-Chandigarh University
+Chandigarh University 
 
 ## Refrences 
 - Pahia – Street Vendors Nearby(https://play.google.com/store/apps/details?id=com.pahia) 
