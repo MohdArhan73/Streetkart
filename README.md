@@ -74,9 +74,9 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 ## 📈 Future Enhancements
 - Online payment integration
 - AI-based product recommendations
-- Demand forecasting for vendors
-- Multi-language support
-- Customer reviews and ratings
+- Demand forecasting for vendors 
+- Multi-language support 
+- Customer reviews and ratings 
 - Vendor analytics dashboard 
 
 ## 👨‍💻 Developed By 
