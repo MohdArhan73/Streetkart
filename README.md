@@ -6,9 +6,9 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 
 ## 🚀 Features 
 - 📍 Live vendor location tracking 
-- 🛍️ Real-time product inventory updates
-- 🔍 Search vendors by product
-- 🗺️ Google Maps integration for navigation
+- 🛍️ Real-time product inventory updates 
+- 🔍 Search vendors by product 
+- 🗺️ Google Maps integration for navigation 
 - 🔔 Product availability and nearby vendor notifications
 - 🛒 Optimized shopping route for multiple vendors
 - 👤 Secure authentication for customers and vendors
