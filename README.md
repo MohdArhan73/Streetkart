@@ -12,10 +12,10 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - 🔔 Product availability and nearby vendor notifications 
 - 🛒 Optimized shopping route for multiple vendors 
 - 👤 Secure authentication for customers and vendors 
-- 📊 Vendor dashboard for inventory management
-
-
-## 🛠️ Tech Stack
+- 📊 Vendor dashboard for inventory management 
+ 
+ 
+## 🛠️ Tech Stack 
 **Frontend**
 - React.js
 - HTML5
