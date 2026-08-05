@@ -17,11 +17,11 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
  
 ## 🛠️ Tech Stack 
 **Frontend**
-- React.js
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
+- React.js 
+- HTML5 
+- CSS3 
+- JavaScript 
+- Bootstrap 
 
 **Backend**
 - Node.js
