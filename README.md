@@ -29,13 +29,13 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
  
 **Database** 
 - MongoDB 
-
+ 
 **APIs & Tools**
 - Google Maps API
-- Socket.IO
-- REST API
-- JWT Authentication
-
+- Socket.IO 
+- REST API 
+- JWT Authentication 
+ 
 ## 🎯 Objectives
 - Connect nearby customers with mobile street vendors.
 - Provide real-time vendor locations and product availability.
