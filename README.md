@@ -23,15 +23,15 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - JavaScript 
 - Bootstrap 
  
-**Backend**
+**Backend** 
 - Node.js 
 - Express.js 
  
 **Database** 
 - MongoDB 
  
-**APIs & Tools**
-- Google Maps API
+**APIs & Tools** 
+- Google Maps API 
 - Socket.IO 
 - REST API 
 - JWT Authentication 
