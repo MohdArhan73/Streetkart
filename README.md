@@ -37,12 +37,12 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - JWT Authentication 
  
 ## 🎯 Objectives
-- Connect nearby customers with mobile street vendors.
-- Provide real-time vendor locations and product availability.
-- Reduce customer search time for daily groceries.
-- Improve sales opportunities for street vendors.
-- Deliver an efficient and user-friendly shopping experience.
-
+- Connect nearby customers with mobile street vendors. 
+- Provide real-time vendor locations and product availability. 
+- Reduce customer search time for daily groceries. 
+- Improve sales opportunities for street vendors. 
+- Deliver an efficient and user-friendly shopping experience. 
+ 
 ## 📂 Project Modules
 ### Customer
 - Register/Login
