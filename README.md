@@ -46,9 +46,9 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 ## 📂 Project Modules 
 ### Customer 
 - Register/Login 
-- Search products
-- View nearby vendors
-- Navigate to vendors
+- Search products 
+- View nearby vendors 
+- Navigate to vendors 
 - Receive availability notifications
 
 ### Vendor
