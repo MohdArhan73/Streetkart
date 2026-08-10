@@ -49,10 +49,10 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - Search products 
 - View nearby vendors 
 - Navigate to vendors 
-- Receive availability notifications
-
-### Vendor
-- Register/Login
+- Receive availability notifications 
+ 
+### Vendor 
+- Register/Login 
 - Update live location
 - Manage product inventory
 - View customer interactions
