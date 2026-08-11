@@ -66,11 +66,11 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - **SDG 8:** Decent Work & Economic Growth
 - **SDG 9:** Industry, Innovation & Infrastructure
 - **SDG 11:** Sustainable Cities & Communities
-- **SDG 12:** Responsible Consumption & Production
-
-## 🎓 Project Type
-**Industry Innovation Project (Minor Project)**
-
+- **SDG 12:** Responsible Consumption & Production 
+ 
+## 🎓 Project Type 
+**Industry Innovation Project (Minor Project)** 
+ 
 ## 📈 Future Enhancements
 - Online payment integration
 - AI-based product recommendations
