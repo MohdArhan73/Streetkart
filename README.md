@@ -53,10 +53,10 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
  
 ### Vendor 
 - Register/Login 
-- Update live location
-- Manage product inventory
-- View customer interactions
-
+- Update live location 
+- Manage product inventory 
+- View customer interactions 
+ 
 ### Admin
 - Manage users
 - Verify vendors
