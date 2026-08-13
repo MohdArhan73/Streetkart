@@ -57,9 +57,9 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 - Manage product inventory 
 - View customer interactions 
  
-### Admin
-- Manage users
-- Verify vendors
+### Admin 
+- Manage users 
+- Verify vendors 
 - Monitor platform activity
 
 ## 🌍 Sustainable Development Goals
