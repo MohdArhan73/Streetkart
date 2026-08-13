@@ -60,18 +60,18 @@ StreetKart is a hyperlocal marketplace designed to connect mobile street vendors
 ### Admin 
 - Manage users 
 - Verify vendors 
-- Monitor platform activity
-
-## 🌍 Sustainable Development Goals
-- **SDG 8:** Decent Work & Economic Growth
-- **SDG 9:** Industry, Innovation & Infrastructure
-- **SDG 11:** Sustainable Cities & Communities
+- Monitor platform activity 
+ 
+## 🌍 Sustainable Development Goals 
+- **SDG 8:** Decent Work & Economic Growth 
+- **SDG 9:** Industry, Innovation & Infrastructure 
+- **SDG 11:** Sustainable Cities & Communities 
 - **SDG 12:** Responsible Consumption & Production 
  
 ## 🎓 Project Type 
 **Industry Innovation Project (Minor Project)** 
  
-## 📈 Future Enhancements
+## 📈 Future Enhancements 
 - Online payment integration
 - AI-based product recommendations
 - Demand forecasting for vendors 
