@@ -1,89 +1,43 @@
-# 🛒 StreetKart – A Hyperlocal Marketplace for Mobile Street Vendors
+# StreetKart
 
-## 📌 Overview
-StreetKart is a hyperlocal marketplace designed to connect mobile street vendors with nearby customers through real-time location tracking and live inventory updates. The platform enables vendors to share their current location and available products, making it easier for customers to discover nearby vendors and check product availability before visiting. By integrating location-based services, smart search, and optimized navigation, 
- StreetKart reduces the time spent searching for daily essentials while helping street vendors increase their visibility, attract more customers, and grow their business. The platform aims to create a more efficient, accessible, and technology-driven shopping experience for both vendors and consumers. 
+StreetKart is a polished React/Vite proof of concept for a hyperlocal marketplace connecting customers with mobile street vendors. It uses fictional Chandigarh-area locations and dummy data only.
 
-## 🚀 Features 
-- 📍 Live vendor location tracking 
-- 🛍️ Real-time product inventory updates 
-- 🔍 Search vendors by product 
-- 🗺️ Google Maps integration for navigation 
-- 🔔 Product availability and nearby vendor notifications 
-- 🛒 Optimized shopping route for multiple vendors 
-- 👤 Secure authentication for customers and vendors 
-- 📊 Vendor dashboard for inventory management 
- 
-## 🛠️ Tech Stack 
-**Frontend**
-- React.js 
-- HTML5 
-- CSS3 
-- JavaScript 
-- Bootstrap 
- 
-**Backend** 
-- Node.js 
-- Express.js 
- 
-**Database** 
-- MongoDB 
- 
-**APIs & Tools** 
-- Google Maps API 
-- Socket.IO 
-- REST API 
-- JWT Authentication 
- 
-## 🎯 Objectives
-- Connect nearby customers with mobile street vendors. 
-- Provide real-time vendor locations and product availability. 
-- Reduce customer search time for daily groceries. 
-- Improve sales opportunities for street vendors. 
-- Deliver an efficient and user-friendly shopping experience. 
- 
-## 📂 Project Modules 
-### Customer 
-- Register/Login 
-- Search products 
-- View nearby vendors 
-- Navigate to vendors 
-- Receive availability notifications 
- 
-### Vendor 
-- Register/Login 
-- Update live location 
-- Manage product inventory 
-- View customer interactions 
- 
-### Admin 
-- Manage users 
-- Verify vendors 
-- Monitor platform activity 
- 
-## 🌍 Sustainable Development Goals 
-- **SDG 8:** Decent Work & Economic Growth 
-- **SDG 9:** Industry, Innovation & Infrastructure 
-- **SDG 11:** Sustainable Cities & Communities 
-- **SDG 12:** Responsible Consumption & Production 
- 
-## 🎓 Project Type 
-**Industry Innovation Project (Minor Project)** 
- 
-## 📈 Future Enhancements 
-- Online payment integration 
-- AI-based product recommendations 
-- Demand forecasting for vendors 
-- Multi-language support 
-- Customer reviews and ratings 
-- Vendor analytics dashboard 
- 
-## 👨‍💻 Developed By 
-**Mohd Arhan** 
-MCA 3rd Semester 
-Chandigarh University 
- 
-## Refrences 
-- Pahia – Street Vendors Nearby(https://play.google.com/store/apps/details?id=com.pahia) 
-- Google Maps(https://www.google.com/maps) 
-- Blinkit(https://blinkit.com) 
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local Vite URL shown in the terminal.
+
+## Demo accounts
+
+| Role | Email | Password |
+| --- | --- | --- |
+| Customer | `customer@streetkart.demo` | `customer123` |
+| Vendor | `vendor@streetkart.demo` | `vendor123` |
+| Admin | `admin@streetkart.demo` | `admin123` |
+
+The login is intentionally client-side for demonstration and is not production authentication.
+
+## Included modules
+
+- Customer discovery dashboard with product search, category filters, vendor details, favorites, notifications and a responsive simulated map.
+- Vendor dashboard with inventory CRUD, availability toggles, profile editing and simulated location updates.
+- Admin dashboard with derived statistics, vendor search, approval/suspension controls and a reset-demo-data action.
+- Shared React Context state persisted to browser `localStorage`. Changes made in the same browser are reflected across the role views; this POC does not provide multi-device synchronization.
+- Seed data includes 8 vendors, 30 products, 5 categories, 3 demo customer accounts and sample notifications.
+
+## Demonstration flow
+
+1. Sign in as Customer and search for `tomatoes`.
+2. Open a vendor, save it as a favorite and inspect the simulated map.
+3. Sign out, sign in as Vendor, edit inventory or simulate a location update.
+4. Sign out, sign in as Customer again to see updated availability/notifications.
+5. Sign in as Admin to approve/suspend vendors and review current statistics.
+6. Use **Reset demo data** to restore the original seed state.
+
+## Future integration
+
+A real deployment could replace the seed/context layer with a REST API, add server-side authentication, connect a Leaflet/OpenStreetMap map, and add secure vendor verification, payments, reviews and real-time events.

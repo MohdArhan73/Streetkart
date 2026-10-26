@@ -1,0 +1,400 @@
+# Build StreetKart – Hyperlocal Marketplace for Mobile Street Vendors (POC)
+
+## 1. Project Overview
+
+Develop a clean, modern, responsive web application named **StreetKart – A Hyperlocal Marketplace for Mobile Street Vendors**.
+
+StreetKart connects customers with nearby mobile street vendors. Customers should be able to search for products, discover vendors, check product availability, view vendor locations, and navigate to vendors. Vendors should be able to manage their profiles, location, and product inventory. An admin should be able to manage vendors and view basic platform statistics.
+
+This is an MCA Industry Innovation Project proof of concept (POC). Build a functional demonstration using **dummy data**, without requiring a production backend, paid APIs, or real vendor information.
+
+Prioritize working features, realistic interactions, a polished interface, and code that is easy for a student to understand and explain.
+
+## 2. Technology Stack
+
+Use the following technologies:
+
+- **Frontend:** React.js with Vite
+- **Styling:** CSS3 and Bootstrap 5, with custom CSS for a polished design
+- **Icons:** React Icons or Bootstrap Icons
+- **Routing:** React Router
+- **Data:** Local JavaScript/JSON dummy datasets
+- **Persistence:** Browser localStorage
+- **Maps:** Leaflet with OpenStreetMap tiles, or a clearly labeled simulated map if map tiles are unavailable
+- **Notifications:** Toast notifications within the application
+
+For this POC, do not require MongoDB, a live Node.js backend, Google Maps billing, real SMS/email services, or a real authentication provider. Structure the code so these services can be integrated later.
+
+## 3. Design Requirements
+
+Create a professional, modern, mobile-responsive interface.
+
+Visual style:
+- Primary colors: dark teal, blue, and white
+- Light gray backgrounds, subtle shadows, rounded cards, and consistent spacing
+- Clean typography and simple navigation
+- Product cards with images, prices, vendor names, distance, and availability
+- Responsive layouts for desktop, tablet, and mobile
+- Loading indicators, empty states, confirmation dialogs, and helpful error messages where appropriate
+- Use consistent icons and buttons throughout the application
+
+The interface should feel like a real hyperlocal marketplace, not a basic college assignment or static HTML page.
+
+Application name: **StreetKart**
+
+Tagline: **Find Local Vendors. Shop Nearby. Support Your Community.**
+
+## 4. User Roles and Navigation
+
+Provide three demo roles:
+
+1. Customer
+2. Vendor
+3. Admin
+
+Create a login page with demo accounts and a role-based dashboard. Provide a visible demo-login option for each role so the evaluator can enter the application quickly.
+
+Demo credentials:
+- Customer: customer@streetkart.demo / customer123
+- Vendor: vendor@streetkart.demo / vendor123
+- Admin: admin@streetkart.demo / admin123
+
+These credentials are only for demonstration. Implement simple client-side role simulation and clearly document that it is not production-grade authentication.
+
+Include a logout button and role-appropriate navigation.
+
+## 5. Customer Features
+
+### 5.1 Customer Dashboard
+
+Display:
+- Welcome message
+- Search bar
+- Product categories
+- Nearby vendors
+- Popular products
+- Recently updated vendor availability
+- Quick access to the map
+
+### 5.2 Product Search
+
+Allow customers to search by product name, category, and vendor name.
+
+Include filters for:
+- Product category
+- Available products only
+- Distance range
+- Price range, where practical
+
+Search results must update dynamically. Show a friendly message when no products match.
+
+### 5.3 Product Cards
+
+Each product card should display:
+- Product image
+- Product name
+- Price and unit
+- Availability status
+- Vendor name
+- Approximate distance
+- View Vendor button
+
+Use realistic dummy products such as vegetables, fruits, snacks, flowers, and household essentials.
+
+### 5.4 Nearby Vendors
+
+Show vendor cards containing:
+- Vendor name
+- Vendor category
+- Current simulated location
+- Distance from the demo customer
+- Available products
+- Open/closed or available/unavailable status
+- View on Map button
+
+Allow customers to open a vendor details page and browse that vendor's inventory.
+
+### 5.5 Map and Navigation
+
+Create a map page showing demo customer and vendor locations.
+
+Requirements:
+- Display vendor markers
+- Use different marker styles for different vendor categories, if practical
+- Show vendor names and basic details when a marker is selected
+- Provide a button to open external directions in OpenStreetMap or Google Maps
+- Show an appropriate fallback message if map tiles fail to load
+
+Use fictional vendor records with plausible coordinates around a single demo area, such as Chandigarh. Clearly label all locations as simulated.
+
+If a real map is unavailable, use a visually clear simulated map with labeled vendor markers. Do not pretend that dummy coordinates represent actual vendor locations.
+
+### 5.6 Availability Notifications
+
+Provide in-app notifications for events such as:
+- A vendor updates product availability
+- A previously unavailable product becomes available
+- A vendor changes their simulated location
+
+Use a small notification panel or bell icon with an unread count.
+
+Generate notifications through actual demo actions rather than merely displaying decorative messages.
+
+### 5.7 Favorites
+
+Allow customers to mark vendors as favorites and view their saved vendors. Store favorites in localStorage.
+
+## 6. Vendor Features
+
+### 6.1 Vendor Dashboard
+
+Show summary cards for:
+- Total products
+- Available products
+- Unavailable products
+- Last location update
+
+Also display a list of the vendor's products and recent demo activity.
+
+### 6.2 Inventory Management
+
+Allow vendors to:
+- Add a product
+- Edit product details
+- Delete a product after confirmation
+- Change price and quantity
+- Mark a product available or unavailable
+- Search and filter their own inventory
+
+Each product should have a name, category, price, unit, quantity, availability status, and optional image.
+
+Validate required fields and show success or error messages.
+
+### 6.3 Location Management
+
+Provide a location panel that shows the vendor's current simulated coordinates and location label.
+
+Add a **Simulate Location Update** button. Clicking it should change the vendor's coordinates to another predefined demo location, update the map, save the change, and create a customer-facing notification.
+
+Do not request real GPS permissions. Clearly indicate that location updates are simulated.
+
+### 6.4 Vendor Profile
+
+Allow the vendor to update:
+- Business name
+- Vendor category
+- Contact number using dummy data
+- Short description
+- Availability status
+
+Save profile changes to localStorage.
+
+## 7. Admin Features
+
+Create a simple admin dashboard with:
+- Total registered demo customers
+- Total vendors
+- Total listed products
+- Available products
+- Vendor approval status
+
+Include a vendor management table with:
+- Vendor name
+- Category
+- Status
+- Number of products
+- Approve or suspend action
+
+Add search and status filters.
+
+Include a basic activity feed showing demo events such as product updates, location changes, and vendor approval.
+
+Admin changes must update the application state and persist across page refreshes.
+
+## 8. Dummy Data
+
+Create a realistic dataset containing at least:
+- 3 demo customers
+- 8 mobile street vendors
+- 30 products
+- 5 product categories
+- 8 vendor location records
+- 10 sample notification records
+
+Example categories:
+- Fruits
+- Vegetables
+- Snacks and Street Food
+- Flowers
+- Household Essentials
+
+Example vendors:
+- Fresh Basket Cart
+- Green Leaf Vegetables
+- City Fruit Corner
+- Chaat Express
+- Flower Street Cart
+- Daily Needs Mobile Shop
+- Sunrise Juice Cart
+- Local Snack Wagon
+
+Example products:
+- Apples, bananas, tomatoes, potatoes, spinach, onions, samosas, juice, marigold flowers, and cleaning supplies.
+
+Give each vendor a realistic but fictional inventory, price, quantity, status, and simulated location.
+
+Use consistent IDs and relationships between users, vendors, products, and notifications.
+
+Clearly mark the application as a demo and do not use real people's personal information.
+
+## 9. Functional Requirements
+
+Every visible control should work.
+
+Implement:
+- Login through the demo accounts
+- Role-based navigation
+- Logout
+- Product search and filters
+- Vendor detail pages
+- Inventory CRUD operations
+- Product availability toggles
+- Vendor profile editing
+- Simulated location updates
+- Map marker updates
+- Favorites
+- In-app notifications
+- Admin approval and suspension
+- Dashboard statistics calculated from current data
+- localStorage persistence
+- Form validation
+- Confirmation dialogs for destructive actions
+- Responsive navigation
+
+When a vendor changes inventory or location, reflect that change in the customer view and notification panel. Because this is a single-browser POC, simulate real-time updates using shared application state and localStorage. Do not claim that it supports real multi-user synchronization across separate devices.
+
+## 10. Suggested Project Structure
+
+Organize the code into reusable components and pages.
+
+src/
+- components/
+  - Navbar
+  - Sidebar
+  - ProductCard
+  - VendorCard
+  - SearchFilters
+  - NotificationPanel
+  - StatCard
+  - ProtectedRoute
+- pages/
+  - Login
+  - CustomerDashboard
+  - ProductSearch
+  - VendorDetails
+  - VendorMap
+  - Favorites
+  - VendorDashboard
+  - InventoryManagement
+  - VendorProfile
+  - AdminDashboard
+  - VendorManagement
+- data/
+  - dummyUsers
+  - dummyVendors
+  - dummyProducts
+  - dummyNotifications
+- context/
+  - AuthContext
+  - AppDataContext
+- utils/
+  - storage
+  - distance
+- App.jsx
+- main.jsx
+- styles/
+
+Adjust this structure if needed, but keep the project easy to navigate.
+
+## 11. Data Handling
+
+Use a centralized state-management approach with React Context or a similarly simple solution.
+
+Requirements:
+- Initialize the application from dummy datasets on first launch.
+- Persist changes in localStorage.
+- Do not overwrite existing saved changes on every page load.
+- Provide a **Reset Demo Data** option for the admin or a clearly accessible demo settings section.
+- Reset should restore the original seed dataset after confirmation.
+- Derive dashboard counts from the current data rather than hardcoding totals.
+- Use a shared distance utility to calculate approximate distances between simulated coordinates.
+
+## 12. Implementation Quality
+
+Follow these rules:
+- Write readable React components and meaningful variable names.
+- Avoid putting the entire application into one large component.
+- Keep repeated UI elements reusable.
+- Use consistent formatting and error handling.
+- Avoid dead buttons, fake loading animations, and nonfunctional menu items.
+- Avoid unnecessary complexity and excessive dependencies.
+- Add comments only where they help explain important logic.
+- Ensure imports, routes, and package dependencies are correct.
+- Make the application runnable locally.
+
+## 13. Evaluation and Testing
+
+Before considering the POC complete, verify these scenarios:
+
+1. Log in as a customer and search for a product.
+2. Open a vendor profile and view available inventory.
+3. Save a vendor as a favorite and refresh the page.
+4. Log in as a vendor and add or edit a product.
+5. Mark a product unavailable and verify the customer view updates.
+6. Simulate a vendor location change and verify the map and notification update.
+7. Log in as an admin and approve or suspend a vendor.
+8. Verify dashboard counts update after changes.
+9. Refresh the page and verify saved changes remain.
+10. Reset the demo data and verify the original dataset is restored.
+11. Test the interface on desktop and mobile screen sizes.
+12. Verify that unavailable or invalid form inputs produce useful feedback.
+
+## 14. Final Deliverables
+
+Provide:
+- Complete runnable React source code
+- package.json with required dependencies
+- README.md with installation and run instructions
+- Dummy dataset files
+- Demo login credentials
+- Explanation of the application modules
+- Brief explanation of how data persistence works
+- Known limitations and future integration steps
+- A short demonstration flow for an MCA project presentation
+
+Include commands such as:
+
+npm install
+npm run dev
+
+Do not provide only a design mockup, screenshots, or pseudocode. Build the actual working POC with functional navigation, realistic dummy data, and interactive features.
+
+## 15. Development Priority
+
+Build in this order:
+
+Phase 1: Application layout, dummy data, routing, and demo login.
+
+Phase 2: Customer product search, vendor cards, and vendor details.
+
+Phase 3: Vendor inventory management and simulated location updates.
+
+Phase 4: Map view, favorites, and notifications.
+
+Phase 5: Admin dashboard and vendor management.
+
+Phase 6: Persistence, responsive design, validation, and testing.
+
+First ensure that the core customer-to-vendor workflow works end to end. Then polish the UI and add the remaining features.
+
+**Final goal:** Deliver a clean, convincing, and fully interactive StreetKart POC that can be demonstrated to MCA project evaluators without needing a production backend or real vendor data.
